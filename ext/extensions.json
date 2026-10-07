@@ -1,0 +1,19 @@
+{
+  "browser_extensions": [
+    {
+      "name": "FoxyProxy Standard",
+      "purpose": "Advanced proxy management to seamlessly route traffic through Burp Suite, Zap, or Tor.",
+      "url": "https://mozilla.org"
+    },
+    {
+      "name": "Wappalyzer",
+      "purpose": "Instantly unmask the underlying technology stack, CMS, and frameworks used by the target site.",
+      "url": "https://mozilla.org"
+    },
+    {
+      "name": "HackBar",
+      "purpose": "Provides a text area inside DevTools to perform manual SQLi and XSS payloads, tampering parameters easily.",
+      "url": "https://mozilla.org"
+    }
+  ]
+}
