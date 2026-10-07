@@ -1,0 +1,24 @@
+/* ============================================================================
+   HACKER UI: Minimalist & Focused Interface Overlay
+   =========================================================================== */
+
+@namespace url("http://mozilla.org");
+
+/* Auto-hide Tab Bar when only one tab is open to maximize screen space */
+#tabbrowser-tabs .tabbrowser-tab:only-of-type {
+    visibility: collapse !important;
+}
+
+/* Red indicator on the URL bar if connecting over unencrypted HTTP */
+#identity-box.notSecure {
+    background-color: #ff3333 !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+/* Compact Omnibox for easier reading of long query parameters */
+#urlbar-input-container {
+    height: 24px !important;
+    font-family: "Courier New", monospace !important;
+    font-size: 13px !important;
+}
